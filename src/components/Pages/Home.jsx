@@ -13,7 +13,7 @@ import { Previusevent } from '../Previusevent';
 import { Ourpartner } from '../Ourpartners';
 import { Funfactbird } from "../Funfactcard";
 import { Posterflip } from "../PosterFlip";
-import FloatButton from "../FloatButton";
+
 
 
 export const Home=()=>{

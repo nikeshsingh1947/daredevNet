@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import"./Previusevent.css"
 import HoverVideoPlayer from "./Hoverplayer";
 import { Box } from "@chakra-ui/react";

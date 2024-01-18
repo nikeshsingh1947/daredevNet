@@ -5,19 +5,19 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import './SliderComponent.css';
 
-import FloatingDiv from './FloatingDiv';
+
 
 import SLideImage2 from "./Assets/DSC_0001.jpg"
 import SLideImage3 from "./Assets/DSC_0107.jpg"
-import SLideImage4 from "./Assets/DSC_0192.jpg"
+// import SLideImage4 from "./Assets/DSC_0192.jpg"
 import SLideImage5 from "./Assets/DSC_9931.jpg"
 import SLideImage6 from "./Assets/DSC_0889.jpg"
-import SLideImage7 from "./Assets/DSC_0912.jpg"
+// import SLideImage7 from "./Assets/DSC_0912.jpg"
 import SLideImage8 from "./Assets/1.jpg"
 import SLideImage9 from "./Assets/2.jpg"
 import SLideImage10 from "./Assets/3.jpg"
 import SLideImage11 from "./Assets/4.jpg"
-import SLideImage12 from "./Assets/5.jpg"
+// import SLideImage12 from "./Assets/5.jpg"
 const SliderComponent = () => {
   const settings = {
     dots: true,

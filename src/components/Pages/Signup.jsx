@@ -1,13 +1,13 @@
 import React from 'react';
 import { useState } from "react";
-import { Box, FormControl,Select, FormLabel, Input, Button,Text, useSafeLayoutEffect } from '@chakra-ui/react';
-import { useNavigate,Link } from "react-router-dom";
+import { Box, FormControl,Select, FormLabel, Input, Button,Text } from '@chakra-ui/react';
+import { Link } from "react-router-dom";
 import "./signup.css"
 import { Postuser } from "../../Redux/AuthRedux/action";
 import { useSelector,useDispatch } from 'react-redux';
 const Signup = () => {
   const user=useSelector((store)=>store.userData.reg)
-  const navigate=useNavigate()
+  // const navigate=useNavigate()
   const dispatch=useDispatch()
   const [input, setInput] = useState('')
     const [pass,setPass]=useState("");
@@ -34,7 +34,7 @@ const Signup = () => {
                         pincode:pincode,
                         mobileNumber:mobile,
                         password:pass}))
-      if(user.token==undefined){
+      if(user.token===undefined){
          alert("something went wrong try again using diffrent Email")
       }
       else{

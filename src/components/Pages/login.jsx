@@ -1,6 +1,6 @@
 import React from 'react';
 import { Box, FormControl, FormLabel, Input, Button,Text } from '@chakra-ui/react';
-import { useNavigate,Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 const Login = () => {
   return (
     <Box style={{"width":"40%","margin":"auto","margin-top":"5%"}}>

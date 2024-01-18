@@ -1,6 +1,6 @@
 import { Box, Text } from "@chakra-ui/react";
 import React from "react";
-import RhombusButton from "./TraiButton";
+
 import "./Ourservices.css";
 export const Ourservices = () => {
   return (

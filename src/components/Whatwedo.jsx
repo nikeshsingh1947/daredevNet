@@ -1,7 +1,7 @@
 import { Box } from "@chakra-ui/react";
 import React from "react";
 import "./Whatwedo.css";
-import RhombusButton from "./TraiButton";
+
 export const Whatwedo = () => {
   return (
     <Box>
@@ -74,9 +74,4 @@ export const Whatwedo = () => {
   );
 };
 
-const arr = [
-  "⊛ Organizing World Class Sports Activities that attracts Sports Enthusiasts ⊛ Develops engaging content over Social Media (we are one ofthe most active socialmedia page)",
-  "⊛ Training Camps & Activities",
-  "⊛ Collaborate with organization within India and across the globe to deliver world class sports & Adventure Tourism",
-  "⊛ Aim to develop Eco-Friendly Infrastructure across Nation with active involvement from the local community.",
-];
+
