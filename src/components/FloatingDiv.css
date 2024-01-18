@@ -1,0 +1,40 @@
+.floating-div {
+    position: absolute;
+    width:45%;
+    height:439px;
+    top: 4.8%;
+    left: 77.5%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff00;
+    /* background: #2e1f37; */
+    /* background:rgb(36,37,42); */
+    background: black;
+    align-content: center;
+    padding: 20px;
+    border-radius: 8px;
+    color: white;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+  }
+  #typer-iner{
+    margin-top: 15%;
+  }
+  #typewriter1{
+    font-size: 32px;
+    /* color:#2e1f37; */
+    color: white;
+  }
+  @media only screen and (min-width:401px) and (max-width:800px) {
+    .floating-div{
+      top: 4.7%;
+    }
+   
+}
+@media only screen and (min-width:0px) and (max-width:400px) {
+  .floating-div{
+    top: 4.03%;
+  }
+  #typewriter1{
+    font-size: 16px;
+    
+  }
+}

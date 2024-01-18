@@ -1,0 +1,29 @@
+#service_cardmain{
+    display: flex;
+    justify-content: space-around;
+}
+.service_card{
+background-color:#2e1f37 ;
+width: 25%;
+color: white;
+border-radius: 13px;
+
+}
+.service_card:hover{
+    background-color: #5e167b;
+}
+.servicecard_imagecontainer{
+    width: 90%;
+    margin: auto;
+}
+.servicecard_imagecontainer>img{
+    width: 100%;
+    height: 50%;
+    border-radius: 5px;
+}
+img{
+    border-radius: 9px;
+}
+.servicecard_imagecontainer>p:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,21 @@
+#imagecontainer_model{
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    padding: 0px;
+}
+
+#imagecontainer_model>a>img{
+ width: 60%;
+ align-self: center;
+ margin: auto;
+ padding: 0;
+}
+@media only screen and (min-width:0px) and (max-width:400px) {
+    #imagecontainer_model>a>img{
+        width: 85%;
+    }
+    #imagecontainer_model{
+        margin-bottom: 10%;
+    }
+}

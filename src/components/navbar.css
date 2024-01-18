@@ -1,0 +1,42 @@
+.navlink-container{
+    display: flex;
+    justify-content:space-between;
+    width:50%;
+    margin-left: 25%;
+}
+.navlink-container>div{
+color:white;
+}
+
+.navlink-container>div>:hover{
+    cursor: pointer;
+    color:rgb(68, 68, 188);
+}
+/* @media only screen and (min-width:320px) and (max-width:800px) {
+    .navlink-container{
+        margin-left: 30%;
+    }
+    .navlink-container>div{
+        width:50%;
+        margin:5px;
+        
+     }
+     #darelogo-container{
+        width:20%;
+     }
+} */
+@media only screen and (min-width:0px) and (max-width:400px) {
+    #main-nav-container{
+        width: 400px;
+    }
+    .navlink-container{
+        margin-left: 5%;
+    }
+    .navlink-container>div{
+        width:70%;
+        margin:5px; 
+     }
+     #darelogo-container{
+        width:20%;
+     }
+}
